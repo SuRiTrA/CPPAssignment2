@@ -8,7 +8,7 @@ int main()
 { 
   double P,T,R, SI;
   cout<<"Hello there...!"<<endl;
-  cout<<"PROGRAM TO ENTER P, T, R and determine the Simple Interest\n \n";
+  cout<<"PROGRAM TO ENTER P, T, R AND DETERMINE THE SIMPLE INTEREST\n \n";
   cout<<"Enter the Principal: ";
   cin>>P;
   cout<<"Enter the Rate of interest(p.a.): ";
