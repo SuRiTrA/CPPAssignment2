@@ -12,7 +12,8 @@ int main()
   cout<<"Enter the number of days to be converted: ";
   cin>>days;
   years=days/365;
-  weeks=days/7;
+  days=days-365*years;
+  weeks=(days)/7;
   lday=days-(weeks*7);
   cout<<"\n \n"<<days<<" days can be written in the form of "<<years<<" year, "<<weeks<<" weeks and "<<lday<<" remaining days";
   return 0;
