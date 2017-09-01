@@ -15,7 +15,7 @@ int main()
   cin>>R;
   cout<<"Enter the Time(in years): ";
   cin>>T;
-  CI=P*pow((1+(R/100)),T);
+  CI=P*pow((1+(R/100)),T)-P;
   cout<<"\n \nThe calculated Compound Interest comes out to be: "<<CI;
   return 0;
 }
